@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+
+  background-color: rgba(30, 30, 47, 1);
+}
+.label {
+  color: #ffffff;
+}
+.timer {
+  display: flex;
+
+  margin-top: 300px;
+}
+
+.field {
+  text-align: center;
+}
+
+.value {
+  display: block;
+  font-weight: bold;
+  font-size: 90px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.field:nth-child(1) .value {
+  color: #ff69b4;
+}
+.field:nth-child(2) .value {
+  color: #ff4500;
+}
+.field:nth-child(3) .value {
+  color: #32cd32;
+}
+.field:nth-child(4) .value {
+  color: #00bfff;
+}
