@@ -27,14 +27,14 @@ body {
 }
 
 .field:nth-child(1) .value {
-  color: #ff69b4;
+  color: rgb(230, 85, 198);
 }
 .field:nth-child(2) .value {
-  color: #ff4500;
+  color: rgb(221, 73, 15);
 }
 .field:nth-child(3) .value {
-  color: #32cd32;
+  color: rgb(97, 212, 21);
 }
 .field:nth-child(4) .value {
-  color: #00bfff;
+  color: rgb(16, 184, 214);
 }
